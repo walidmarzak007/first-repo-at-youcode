@@ -10,3 +10,12 @@
 'use strict';
 
 // TODO: écris ta solution ici.
+
+
+
+let count =1;
+while (count <=5){
+console.log("the number is" + count );
+count++;
+}
+    

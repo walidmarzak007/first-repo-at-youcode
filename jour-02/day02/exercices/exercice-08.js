@@ -5,7 +5,8 @@
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Affichez les nombres de 1 à 20, mais ignorez (ne loguez pas) les multiples de 3 en utilisant le mot-clé continue.
+ * Affichez les nombres de 1 à 20, mais ignorez (ne loguez pas) les multiples de 3 en 
+ * utilisant le mot-clé continue.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-08
  * ▶️ Commande : node day02/exercices/exercice-08.js
@@ -15,3 +16,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+for (let i= 1 ; i<=20 ; i++){
+    if (i % 3 == 0){
+        continue; 
+
+    }
+    console.log(i)
+}
