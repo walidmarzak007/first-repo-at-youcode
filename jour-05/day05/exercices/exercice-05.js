@@ -15,3 +15,18 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let villes = ["rabat" , "casablanca" , "tanger"];
+let target = "Marrakech";
+let isfound = false;
+for (let i = 0; i < villes.length; i++){
+    if (target == villes[i]){
+        isfound = false;}
+}
+if (isfound)
+{
+    console.log(false)
+}
+    else{
+    console.log(true)
+}

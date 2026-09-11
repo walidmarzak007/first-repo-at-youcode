@@ -15,3 +15,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let resultat = 0
+let nombres = [10 , 20 , 30 , 40];
+for (let i = 0 ; i< nombres.length ; i++){
+    
+    resultat =  nombres[i] * 2 
+    
+    console.log(resultat);
+}

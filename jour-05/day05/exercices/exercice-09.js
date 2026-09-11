@@ -15,3 +15,12 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let arr = [1, 2, 3, 4, 5, 6];
+let arr2 = [];
+for(let i = 1 ; i < arr.length ; i++){
+if (arr[i] %2 == 0 ){
+arr2.push(arr[i]);
+}
+}
+console.log(arr2);

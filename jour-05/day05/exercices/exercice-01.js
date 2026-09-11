@@ -15,3 +15,7 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let colors = ["blue" , "white" , "black" , "red" , "yellow"]
+console.log(colors[0])
+console.log(colors[2])

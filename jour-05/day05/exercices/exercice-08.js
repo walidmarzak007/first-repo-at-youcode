@@ -15,3 +15,18 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+let max = Array[0];
+let min = Array[0];
+
+for (let i = 1 ; i < Array.length ; i++){
+if (Array[i] < max){
+    max = Array[i];
+}
+if (Array[i] < min){
+    min = Array[i];
+}
+}
+console.log(max , min);
+
