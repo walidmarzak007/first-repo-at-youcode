@@ -1,15 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 04 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * COMPTEUR D'OCCURRENCES DE LETTRE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Créez une fonction qui compte combien de fois la lettre "e" (minuscule ou majuscule) apparaît dans un long paragraphe.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-18
+ * ▶️ Commande : node day04/exercices/exercice-18.js
  */
 'use strict';
 

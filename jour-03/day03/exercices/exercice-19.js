@@ -1,15 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 03 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * TIMEOUT SIMULÉ (CALLBACK ASYNCHRONE CONCEPT)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Bien que ce ne soit pas spécifique au DOM, utilisez la fonction native setTimeout(callback, delai) pour créer une fonction alarme(message, secondes) qui affichera le message après X secondes.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
+ * ▶️ Commande : node day03/exercices/exercice-19.js
  */
 'use strict';
 

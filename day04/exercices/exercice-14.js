@@ -1,15 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 04 · EXERCICE 14 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * COMPTAGE DE MOTS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Comptez le nombre de mots dans une longue chaîne. *Attention aux espaces multiples !* (Un mot est généralement séparé par un espace).
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-14
+ * ▶️ Commande : node day04/exercices/exercice-14.js
  */
 'use strict';
 

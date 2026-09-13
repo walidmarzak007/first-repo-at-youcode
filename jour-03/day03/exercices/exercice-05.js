@@ -1,18 +1,20 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 03 · EXERCICE 05 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * PÉRIMÈTRE AVEC VALEUR PAR DÉFAUT
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Écrivez une fonction perimetreRectangle(longueur, largeur = 5). Si la largeur n'est pas fournie lors de l'appel, elle vaudra 5 par défaut. Testez-la avec perimetreRectangle(10).
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-05
+ * ▶️ Commande : node day03/exercices/exercice-05.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+const perimetreRectangle = (longueur, largeur = 5) => 2 * (longueur, largeur);
+console.log(10)

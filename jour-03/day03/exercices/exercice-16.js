@@ -1,15 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 03 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * CLOSURE (FERMETURE)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Créez une fonction creerCompteur(). À l'intérieur, déclarez let count = 0. Retournez une fonction qui, lorsqu'elle est appelée, fait count++ et retourne count. Stockez le résultat de creerCompteur() dans une variable monCompteur, et appelez-la 3 fois. Comprenez pourquoi l'état est conservé !
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
+ * ▶️ Commande : node day03/exercices/exercice-16.js
  */
 'use strict';
 

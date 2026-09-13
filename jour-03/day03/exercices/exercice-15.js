@@ -1,15 +1,15 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 03 · EXERCICE 15 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * RÉCURSIVITÉ (LE CONCEPT QUI RETOURNE LE CERVEAU)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Recréez la fonction fibonacci(n) (qui retourne le Nième terme de la suite) en utilisant la *récursivité* (la fonction s'appelle elle-même).
+ * Condition d'arrêt : Si n <= 1, return n.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-15
+ * ▶️ Commande : node day03/exercices/exercice-15.js
  */
 'use strict';
 

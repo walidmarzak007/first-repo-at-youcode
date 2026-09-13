@@ -1,18 +1,22 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 03 · EXERCICE 03 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * CONVERTISSEUR DE DEVISE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Écrivez une fonction madToEur(mad) qui prend un montant en dirhams et le convertit en euros (considérez 1 EUR = 10.8 MAD).
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
+ * ▶️ Commande : node day03/exercices/exercice-03.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+
+const madToEur = mad => mad / 10.8;
+console.log(madToEur(10000000)) 

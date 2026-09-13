@@ -1,18 +1,24 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 04 · EXERCICE 03 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * MAJUSCULES ET MINUSCULES
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Mettez "youcode" entièrement en majuscules, et "MAROC" entièrement en minuscules.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
+ * ▶️ Commande : node day04/exercices/exercice-03.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+let w1 = "youcode"
+let w2 = "MAROC"
+let result1 = w1.toUpperCase();
+let result2 = w2.toLowerCase();
+console.log(result1 , result2) 

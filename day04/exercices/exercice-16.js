@@ -1,15 +1,14 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 04 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * EXTRACTION DE HASHTAGS
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * À partir d'un tweet : "Beau temps à #Nador aujourd'hui avec la team #YouCode !", extrayez tous les hashtags et retournez-les dans un tableau ["#Nador", "#YouCode"].
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
+ * ▶️ Commande : node day04/exercices/exercice-16.js
  */
 'use strict';
 

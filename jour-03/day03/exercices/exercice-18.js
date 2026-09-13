@@ -1,15 +1,15 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 03 · EXERCICE 18 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * CURRYFICATION (CURRYING)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Créez une fonction multiplicateur(facteur) qui retourne une fonction prenant un argument nombre et retournant nombre * facteur.
+ * Testez avec : const double = multiplicateur(2); console.log(double(10)); // 20.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-18
+ * ▶️ Commande : node day03/exercices/exercice-18.js
  */
 'use strict';
 

@@ -1,18 +1,24 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 20 · NIVEAU 3 : DÉFI (AVANCÉS)
- * GÉNÉRATEUR DE COMBINAISONS
+ * JOUR 03 · EXERCICE 07 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * FONCTION DANS UNE FONCTION
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Étant donné un tableau de 3 couleurs ["Rouge", "Vert", "Bleu"], 
- * générez toutes les paires possibles : ["Rouge-Vert", "Rouge-Bleu", "Vert-Rouge", ...].
+ * Déclarez une fonction carre(x) puis une fonction sommeDesCarres(a, b) qui appelle carre pour a et pour b, 
+ * et retourne la somme de leurs carrés.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-20
- * ▶️ Commande : node day05/exercices/exercice-20.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-07
+ * ▶️ Commande : node day03/exercices/exercice-07.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+const carre = (x) => x * x 
+const sommeDesCarres = (a, b) => carre(a) + carre(b)
+console.log(carre(6))
+console.log(sommeDesCarres(6,5))
