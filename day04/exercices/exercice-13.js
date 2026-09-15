@@ -16,3 +16,16 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+function formater(montant) {
+let numiro = montant.toString()
+let result = numiro.slice(0,1) + " "+ 
+             numiro.slice(1,4) + " "+
+             numiro.slice(4,7) + " "+
+             "MAD"
+
+return result
+}
+let num = 1234567
+console.log(formater(num))

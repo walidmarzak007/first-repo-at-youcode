@@ -16,3 +16,19 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+function anagram (word1 , word2){
+    let str1 = word1.toLowerCase().replace(/\s+/g, '')
+    let str2 = word2.toLowerCase().replace(/\s+/g, '')
+    if (str1.length !== str2.length) return false
+    for(let i = 0 ; i < str1.length ; i++){
+        let char = str1[i]
+        if(!str2.includes(char)){
+            return false
+        }
+        str2 = str2.replace(char, '')
+    }
+        return str2 === ''
+    }
+    console.log(anagram("chien" , "niche"))
